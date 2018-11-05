@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# zeroframewk::creatusr
+#
+uid=$(( `cat /etc/passwd | cut -d ":" -f 3 | sort -n | tail -1` + 1 ))
+pw=`openssl passwd -crypt ${2}`
+groupadd ${1}
+mkdir /home/${1}
+useradd -c 'Created by chef-zero' -d /home/${1} -s /bin/rbash -g ${1} -m -u${uid} -p ${pw} ${1}
+chown ${1}. /home/${1}

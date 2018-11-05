@@ -1,0 +1,7 @@
+name       'zeroframewk'
+maintainer      'Dick Irwin'
+maintainer_email  'EMAIL@GPC'
+license 'All rights reserved'
+description    'Installs chef-zero based standalone  server'
+description    'Installs chef-zero based standalone  server'
+version          '0.0.1'

@@ -1,0 +1,6 @@
+{
+  "id": "install",
+  "rpm_versions": {
+    "sample_rpm": "0.0.0-1"
+  }
+}

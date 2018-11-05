@@ -1,0 +1,18 @@
+{
+  "name": "node_install",
+  "normal": {
+    "tags": [
+
+    ],
+    "language_code": "en"
+  },
+  "default": {
+    "centos": {
+      "base_ver": "7"
+    },
+    "ssh_port": "19899"
+  },
+  "run_list": [
+    "role[chefzerodefault]"
+  ]
+}
