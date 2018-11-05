@@ -1,0 +1,7 @@
+name       'zeroframewk'
+maintainer      'Wil Whitlark'
+maintainer_email  'wil@ga.co'
+license 'All rights reserved'
+description    'Installs chef-zero based standalone server'
+description    'Installs chef-zero based standalone server'
+version          '0.0.1'
